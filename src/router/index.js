@@ -18,6 +18,11 @@ const router = createRouter({
       path: "/book",
       component: () => import("../views/Book.vue"),
     },
+    {
+      name: "berita",
+      path: "/berita",
+      component: () => import("../views/Wisata.vue"),
+    },
   ],
 });
 

@@ -44,7 +44,7 @@
         </div>
         <div class="flex items-center gap-2">
           <img src="../assets/icons/phone.png" alt="location" class="w-6 h-6">
-          <h5 class="text-white">+62 857-2190-5207 (Alamsyah)</h5>
+          <h5 class="text-white">+62 857-2190-5207 (Admin)</h5>
         </div>
         <div class="flex items-center gap-2">
           <img src="../assets/icons/instagram.png" alt="instagram" class="w-6 h-6">

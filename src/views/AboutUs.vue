@@ -34,7 +34,7 @@
           </ul>
         </div>
       </div>
-      <div class="w-[90vw] h-auto py-8 mt-8">
+      <div class="w-full md:w-[90vw] h-auto py-8 mt-8">
         <img src="../assets/img/about.jpg" class="w-full h-auto md:h-[500px] object-fit md:object-cover" alt="about-us">
       </div>
     </div>

@@ -12,6 +12,10 @@
     <div class="w-fit flex items-center justify-center">
       <div class="w-30 p-4 h-24 flex justify-center items-center cursor-pointer"
         :class="{ 'hover:bg-gray-900': scrollY > 0 }">
+        <h2 class="text-white font-[CaviarDreams] text-lg md:text-xl" @click="toPage('/berita')">Berita</h2>
+      </div>
+      <div class="w-30 p-4 h-24 flex justify-center items-center cursor-pointer"
+        :class="{ 'hover:bg-gray-900': scrollY > 0 }">
         <h2 class="text-white font-[CaviarDreams] text-lg md:text-xl" @click="toPage('/book')">Book</h2>
       </div>
       <div class="w-30 p-4 h-24 flex justify-center items-center cursor-pointer"

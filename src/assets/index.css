@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@font-face {
+  font-family: "Mahaputra";
+  src: url("../assets/fonts/Mahaputra.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "CaviarDreams";
+  src: url("../assets/fonts/CaviarDreams.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}

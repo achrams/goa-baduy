@@ -1,11 +1,11 @@
 <template>
   <div class="w-full min-h-screen h-fit text-white">
     <Navbar />
-    <div class="w-full min-h-screen h-full flex flex-col items-center py-28 px-18">
+    <div class="w-full min-h-screen h-full flex flex-col items-center py-28 p-4 md:px-18">
       <div class="w-full">
-        <div class="flex flex-wrap items-end my-2 h-64 p-2 bg-gray-800">
-          <img class="w-3/12 h-full" src="../assets/img/berita1.jpg" alt="vaksinasi">
-          <div class="w-8/12 px-2 flex flex-col h-full justify-between">
+        <div class="flex flex-wrap items-end my-2 h-full md:h-64 p-2 bg-gray-800">
+          <img class="w-full md:w-3/12 h-full" src="../assets/img/berita1.jpg" alt="vaksinasi">
+          <div class="w-full md:w-8/12 px-2 flex flex-col h-full justify-between">
             <h1 class="text-3xl p-4">Vaksinasi Untuk Indonesia Sehat</h1>
             <p class=" text-justify p-4">Goa baduy merupakan destinasi wisata edukasi untuk kegiatan outdoor dalam
               melakukan
@@ -18,9 +18,9 @@
             </p>
           </div>
         </div>
-        <div class="flex flex-wrap items-end my-2 h-64 p-2 bg-gray-800">
-          <img class="w-3/12 h-full" src="../assets/img/pohon.jpg" alt="penanaman">
-          <div class="w-8/12 px-2 flex flex-col h-full justify-between">
+        <div class="flex flex-wrap items-end my-2 h-full md:h-64 p-2 bg-gray-800">
+          <img class="w-full md:w-3/12 h-full" src="../assets/img/pohon.jpg" alt="penanaman">
+          <div class="w-full md:w-8/12 px-2 flex flex-col h-full justify-between">
             <h1 class="text-3xl p-4">Penanaman 1000 Pohon</h1>
             <p class=" text-justify p-4">Gerakan Pramuka Indonesia bersama Palang Merah Indonesia (PMI) menggelar aksi
               penghijauan dengan menanam 1.000 pohon di kawasan Goa Baduy, Palayangan. Kegiatan ini menjadi bentuk nyata

@@ -1,7 +1,7 @@
 <template>
   <div class="w-full h-full min-h-screen bg-gray-900 relative">
     <Navbar />
-    <div class="w-full px-18 py-20 flex flex-col">
+    <div class="w-full px-4 md:px-18 py-20 flex flex-col">
       <h1 class="text-white text-4xl my-8 text-center z-20">About Us</h1>
       <p class="text-justify text-white mt-8 z-20">Goa Baduy memiliki Panjang ± 700 M, lebar 4 sampai 10 M, kedalaman ±
         50 M,

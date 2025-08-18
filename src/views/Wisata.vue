@@ -3,7 +3,7 @@
     <Navbar />
     <div class="w-full min-h-screen h-full flex flex-col items-center py-28 p-4 md:px-18">
       <div class="w-full">
-        <div class="flex flex-wrap items-end my-2 h-full md:h-fit lg:h-64 p-2 bg-gray-800">
+        <div class="flex flex-wrap items-start my-2 h-full md:h-fit lg:h-64 p-2 bg-gray-800">
           <img class="w-full md:w-3/12 h-full" src="../assets/img/berita1.jpg" alt="vaksinasi">
           <div class="w-full md:w-8/12 px-2 flex flex-col h-full justify-between">
             <h1 class="text-3xl p-4">Vaksinasi Untuk Indonesia Sehat</h1>
@@ -18,7 +18,7 @@
             </p>
           </div>
         </div>
-        <div class="flex flex-wrap items-end my-2 h-full md:h-fit lg:h-64 p-2 bg-gray-800">
+        <div class="flex flex-wrap items-start my-2 h-full md:h-fit lg:h-64 p-2 bg-gray-800">
           <img class="w-full md:w-3/12 h-full" src="../assets/img/pohon.jpg" alt="penanaman">
           <div class="w-full md:w-8/12 px-2 flex flex-col h-full justify-between">
             <h1 class="text-3xl p-4">Penanaman 1000 Pohon</h1>

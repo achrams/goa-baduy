@@ -7,8 +7,8 @@
           class="flex flex-wrap items-start my-2 h-full md:h-fit lg:h-64 p-2 bg-gray-800">
           <img class="w-full md:w-3/12 h-full" :src="article.image" alt="vaksinasi">
           <div class="w-full md:w-8/12 px-2 flex flex-col h-full justify-between">
-            <h1 class="text-3xl p-4">{{ article.name }}</h1>
-            <p class=" text-justify p-4">{{ article.content }}
+            <h1 class="text-3xl p-4">{{ article.title }}</h1>
+            <p v-for="(content, i) in article.contents" class=" text-justify p-4">{{ content }}
             </p>
           </div>
         </div>

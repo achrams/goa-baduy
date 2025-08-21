@@ -21,7 +21,32 @@ const router = createRouter({
     {
       name: "berita",
       path: "/berita",
-      component: () => import("../views/Wisata.vue"),
+      component: () => import("../views/Articles.vue"),
+    },
+    {
+      name: "admin",
+      path: "/admin",
+      component: () => import("../views/Admin.vue"),
+    },
+    {
+      name: "dashboard",
+      path: "/admin/dashboard",
+      component: () => import("../views/Dashboard.vue"),
+    },
+    {
+      name: "admin-articles",
+      path: "/admin/articles",
+      component: () => import("../views/AdminArticles.vue"),
+    },
+    {
+      name: "admin-articles-add",
+      path: "/admin/articles/add",
+      component: () => import("../views/AddEditArticle.vue"),
+    },
+    {
+      name: "admin-articles-edit",
+      path: "/admin/articles/edit/:id",
+      component: () => import("../views/AddEditArticle.vue"),
     },
   ],
 });

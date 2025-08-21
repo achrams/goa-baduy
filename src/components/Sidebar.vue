@@ -11,6 +11,10 @@
       Articles</div>
     <div
       class="w-full p-4 text-center text-white bg-gray-800 hover:bg-gray-900 border-b-gray-900 border-b-1 cursor-pointer"
+      @click="toPage('/admin/about')">
+      About Us</div>
+    <div
+      class="w-full p-4 text-center text-white bg-gray-800 hover:bg-gray-900 border-b-gray-900 border-b-1 cursor-pointer"
       @click="logout">
       Logout</div>
   </div>

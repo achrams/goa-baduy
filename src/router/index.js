@@ -48,6 +48,11 @@ const router = createRouter({
       path: "/admin/articles/edit/:id",
       component: () => import("../views/AddEditArticle.vue"),
     },
+    {
+      name: "admin-about-edit",
+      path: "/admin/about",
+      component: () => import("../views/AdminAbout.vue"),
+    },
   ],
 });
 

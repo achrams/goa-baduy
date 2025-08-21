@@ -136,7 +136,8 @@ const saveData = () => {
   })
     .then(res => {
       console.log(res)
-      window.location.reload()
+      alert('Data Saved.')
+      getLandingPageData()
     })
     .catch(err => {
       console.log(err)

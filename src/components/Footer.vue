@@ -9,8 +9,8 @@
 </template>
 <script setup>
 import { useRouter } from 'vue-router';
-
+const router = useRouter()
 const toPage = (path) => {
-  useRouter().push(path)
+  router.push(path)
 }
 </script>
